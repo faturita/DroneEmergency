@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629FAFB61AFBB2B800D97980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FAFB51AFBB2B800D97980 /* main.m */; };
+		629FAFB91AFBB2B800D97980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FAFB81AFBB2B800D97980 /* AppDelegate.m */; };
+		629FAFBC1AFBB2B800D97980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FAFBB1AFBB2B800D97980 /* ViewController.m */; };
+		629FAFBF1AFBB2B800D97980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629FAFBD1AFBB2B800D97980 /* Main.storyboard */; };
+		629FAFC11AFBB2B800D97980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629FAFC01AFBB2B800D97980 /* Images.xcassets */; };
+		629FAFC41AFBB2B800D97980 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629FAFC21AFBB2B800D97980 /* LaunchScreen.xib */; };
+		629FAFD01AFBB2B800D97980 /* DroneEmergencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FAFCF1AFBB2B800D97980 /* DroneEmergencyTests.m */; };
+		629FAFDD1AFBB5AC00D97980 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FAFDA1AFBB5AC00D97980 /* GCDAsyncSocket.m */; };
+		629FAFDE1AFBB5AC00D97980 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FAFDC1AFBB5AC00D97980 /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629FAFCA1AFBB2B800D97980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629FAFA81AFBB2B800D97980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629FAFAF1AFBB2B800D97980;
+			remoteInfo = DroneEmergency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		629FAFB01AFBB2B800D97980 /* DroneEmergency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneEmergency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629FAFB41AFBB2B800D97980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629FAFB51AFBB2B800D97980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629FAFB71AFBB2B800D97980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629FAFB81AFBB2B800D97980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629FAFBA1AFBB2B800D97980 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		629FAFBB1AFBB2B800D97980 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		629FAFBE1AFBB2B800D97980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		629FAFC01AFBB2B800D97980 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		629FAFC31AFBB2B800D97980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		629FAFC91AFBB2B800D97980 /* DroneEmergencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneEmergencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629FAFCE1AFBB2B800D97980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629FAFCF1AFBB2B800D97980 /* DroneEmergencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneEmergencyTests.m; sourceTree = "<group>"; };
+		629FAFD91AFBB5AC00D97980 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		629FAFDA1AFBB5AC00D97980 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		629FAFDB1AFBB5AC00D97980 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		629FAFDC1AFBB5AC00D97980 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629FAFAD1AFBB2B800D97980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FAFC61AFBB2B800D97980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629FAFA71AFBB2B800D97980 = {
+			isa = PBXGroup;
+			children = (
+				629FAFD91AFBB5AC00D97980 /* GCDAsyncSocket.h */,
+				629FAFDA1AFBB5AC00D97980 /* GCDAsyncSocket.m */,
+				629FAFDB1AFBB5AC00D97980 /* GCDAsyncUdpSocket.h */,
+				629FAFDC1AFBB5AC00D97980 /* GCDAsyncUdpSocket.m */,
+				629FAFB21AFBB2B800D97980 /* DroneEmergency */,
+				629FAFCC1AFBB2B800D97980 /* DroneEmergencyTests */,
+				629FAFB11AFBB2B800D97980 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629FAFB11AFBB2B800D97980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629FAFB01AFBB2B800D97980 /* DroneEmergency.app */,
+				629FAFC91AFBB2B800D97980 /* DroneEmergencyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629FAFB21AFBB2B800D97980 /* DroneEmergency */ = {
+			isa = PBXGroup;
+			children = (
+				629FAFB71AFBB2B800D97980 /* AppDelegate.h */,
+				629FAFB81AFBB2B800D97980 /* AppDelegate.m */,
+				629FAFBA1AFBB2B800D97980 /* ViewController.h */,
+				629FAFBB1AFBB2B800D97980 /* ViewController.m */,
+				629FAFBD1AFBB2B800D97980 /* Main.storyboard */,
+				629FAFC01AFBB2B800D97980 /* Images.xcassets */,
+				629FAFC21AFBB2B800D97980 /* LaunchScreen.xib */,
+				629FAFB31AFBB2B800D97980 /* Supporting Files */,
+			);
+			path = DroneEmergency;
+			sourceTree = "<group>";
+		};
+		629FAFB31AFBB2B800D97980 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629FAFB41AFBB2B800D97980 /* Info.plist */,
+				629FAFB51AFBB2B800D97980 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629FAFCC1AFBB2B800D97980 /* DroneEmergencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				629FAFCF1AFBB2B800D97980 /* DroneEmergencyTests.m */,
+				629FAFCD1AFBB2B800D97980 /* Supporting Files */,
+			);
+			path = DroneEmergencyTests;
+			sourceTree = "<group>";
+		};
+		629FAFCD1AFBB2B800D97980 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629FAFCE1AFBB2B800D97980 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629FAFAF1AFBB2B800D97980 /* DroneEmergency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629FAFD31AFBB2B800D97980 /* Build configuration list for PBXNativeTarget "DroneEmergency" */;
+			buildPhases = (
+				629FAFAC1AFBB2B800D97980 /* Sources */,
+				629FAFAD1AFBB2B800D97980 /* Frameworks */,
+				629FAFAE1AFBB2B800D97980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneEmergency;
+			productName = DroneEmergency;
+			productReference = 629FAFB01AFBB2B800D97980 /* DroneEmergency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629FAFC81AFBB2B800D97980 /* DroneEmergencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629FAFD61AFBB2B800D97980 /* Build configuration list for PBXNativeTarget "DroneEmergencyTests" */;
+			buildPhases = (
+				629FAFC51AFBB2B800D97980 /* Sources */,
+				629FAFC61AFBB2B800D97980 /* Frameworks */,
+				629FAFC71AFBB2B800D97980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629FAFCB1AFBB2B800D97980 /* PBXTargetDependency */,
+			);
+			name = DroneEmergencyTests;
+			productName = DroneEmergencyTests;
+			productReference = 629FAFC91AFBB2B800D97980 /* DroneEmergencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629FAFA81AFBB2B800D97980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Baufest;
+				TargetAttributes = {
+					629FAFAF1AFBB2B800D97980 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					629FAFC81AFBB2B800D97980 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 629FAFAF1AFBB2B800D97980;
+					};
+				};
+			};
+			buildConfigurationList = 629FAFAB1AFBB2B800D97980 /* Build configuration list for PBXProject "DroneEmergency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629FAFA71AFBB2B800D97980;
+			productRefGroup = 629FAFB11AFBB2B800D97980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629FAFAF1AFBB2B800D97980 /* DroneEmergency */,
+				629FAFC81AFBB2B800D97980 /* DroneEmergencyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629FAFAE1AFBB2B800D97980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FAFBF1AFBB2B800D97980 /* Main.storyboard in Resources */,
+				629FAFC41AFBB2B800D97980 /* LaunchScreen.xib in Resources */,
+				629FAFC11AFBB2B800D97980 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FAFC71AFBB2B800D97980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629FAFAC1AFBB2B800D97980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FAFDD1AFBB5AC00D97980 /* GCDAsyncSocket.m in Sources */,
+				629FAFDE1AFBB5AC00D97980 /* GCDAsyncUdpSocket.m in Sources */,
+				629FAFBC1AFBB2B800D97980 /* ViewController.m in Sources */,
+				629FAFB91AFBB2B800D97980 /* AppDelegate.m in Sources */,
+				629FAFB61AFBB2B800D97980 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FAFC51AFBB2B800D97980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FAFD01AFBB2B800D97980 /* DroneEmergencyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629FAFCB1AFBB2B800D97980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629FAFAF1AFBB2B800D97980 /* DroneEmergency */;
+			targetProxy = 629FAFCA1AFBB2B800D97980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		629FAFBD1AFBB2B800D97980 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629FAFBE1AFBB2B800D97980 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		629FAFC21AFBB2B800D97980 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629FAFC31AFBB2B800D97980 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629FAFD11AFBB2B800D97980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		629FAFD21AFBB2B800D97980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629FAFD41AFBB2B800D97980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneEmergency/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		629FAFD51AFBB2B800D97980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneEmergency/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		629FAFD71AFBB2B800D97980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroneEmergencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneEmergency.app/DroneEmergency";
+			};
+			name = Debug;
+		};
+		629FAFD81AFBB2B800D97980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroneEmergencyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneEmergency.app/DroneEmergency";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629FAFAB1AFBB2B800D97980 /* Build configuration list for PBXProject "DroneEmergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FAFD11AFBB2B800D97980 /* Debug */,
+				629FAFD21AFBB2B800D97980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629FAFD31AFBB2B800D97980 /* Build configuration list for PBXNativeTarget "DroneEmergency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FAFD41AFBB2B800D97980 /* Debug */,
+				629FAFD51AFBB2B800D97980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629FAFD61AFBB2B800D97980 /* Build configuration list for PBXNativeTarget "DroneEmergencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FAFD71AFBB2B800D97980 /* Debug */,
+				629FAFD81AFBB2B800D97980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629FAFA81AFBB2B800D97980 /* Project object */;
+}
